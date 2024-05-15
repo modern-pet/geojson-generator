@@ -1,0 +1,107 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zip_code": "10110",
+        "formatted_address": "RT.5/RW.2, Gambir, Central Jakarta City, Jakarta 10110, Indonesia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.8169938,
+              -6.1671671
+            ],
+            [
+              106.8371047,
+              -6.1671671
+            ],
+            [
+              106.8371047,
+              -6.1832698
+            ],
+            [
+              106.8169938,
+              -6.1832698
+            ],
+            [
+              106.8169938,
+              -6.1671671
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip_code": "10120",
+        "formatted_address": "Kebon Kelapa, Gambir, Central Jakarta City, Jakarta 10120, Indonesia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.819252,
+              -6.1594897
+            ],
+            [
+              106.8307038,
+              -6.1594897
+            ],
+            [
+              106.8307038,
+              -6.1682586
+            ],
+            [
+              106.819252,
+              -6.1682586
+            ],
+            [
+              106.819252,
+              -6.1594897
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip_code": "10210",
+        "formatted_address": "Bendungan Hilir, Tanah Abang, Central Jakarta City, Jakarta 10210, Indonesia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.8010405,
+              -6.1981391
+            ],
+            [
+              106.8169707,
+              -6.1981391
+            ],
+            [
+              106.8169707,
+              -6.219347
+            ],
+            [
+              106.8010405,
+              -6.219347
+            ],
+            [
+              106.8010405,
+              -6.1981391
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
