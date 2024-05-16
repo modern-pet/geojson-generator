@@ -1,4 +1,5 @@
 const fs = require('fs');
+require('dotenv').config(); // Load environment variables from .env file
 
 // Load the GeoJSON file
 const geoJsonData = JSON.parse(fs.readFileSync('./kecamatan.geojson', 'utf8'));
@@ -65,6 +66,17 @@ const createGeoJsonFeatures = (geoJsonData, zipCodeMapping) => {
         };
         features.push(newFeature);
       });
+    } else {
+      // Add the kecamatan even if there are no zip codes
+      const newFeature = {
+        type: "Feature",
+        properties: {
+          zip: null,
+          name: feature.properties.name
+        },
+        geometry: feature.geometry
+      };
+      features.push(newFeature);
     }
   });
 
