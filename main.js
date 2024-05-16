@@ -24,7 +24,9 @@ jakartaData.forEach(entry => {
   const kecamatan = normalizeString(entry.sub_district);
 
   if (zipCodeMapping[kecamatan]) {
-    zipCodeMapping[kecamatan].push(zipCode);
+    if (!zipCodeMapping[kecamatan].includes(zipCode)) {
+      zipCodeMapping[kecamatan].push(zipCode);
+    }
   } else {
     zipCodeMapping[kecamatan] = [zipCode];
   }
