@@ -1,14 +1,16 @@
 const fs = require('fs');
+const path = require('path');
+const { parse } = require('json2csv');
 
 // Load the GeoJSON file
-const geoJsonData = JSON.parse(fs.readFileSync('./kecamatan.geojson', 'utf8'));
+const geoJsonData = JSON.parse(fs.readFileSync('./kecamatan_jakarta.geojson', 'utf8'));
 
 // Load the comprehensive JSON file
-const jsonData = JSON.parse(fs.readFileSync('./postal_codes.json', 'utf8'));
+const jsonData = JSON.parse(fs.readFileSync('./postal_codes_jakarta.json', 'utf8'));
 
-// Function to normalize strings by lowercasing and removing extra spaces
+// Function to normalize strings by uppercasing and removing extra spaces
 const normalizeString = (str) => {
-  return str.toLowerCase().replace(/\s+/g, ' ').trim();
+  return str.toUpperCase().replace(/\s+/g, ' ').trim();
 };
 
 // Initialize zip code mapping
@@ -28,49 +30,41 @@ jakartaData.forEach(entry => {
   }
 });
 
-// Function to create GeoJSON features for each zip code
-const createGeoJsonFeatures = (geoJsonData, zipCodeMapping) => {
-  const features = [];
+// Generate the CSV data
+const csvData = [];
 
+Object.keys(zipCodeMapping).forEach(kecamatan => {
+  zipCodeMapping[kecamatan].forEach(zipCode => {
+    csvData.push({ zip_code: zipCode, kecamatan: kecamatan });
+  });
+});
+
+// Write the CSV file
+const csvFilePath = path.join(__dirname, 'zip_to_kecamatan_mapping.csv');
+const csvFields = ['zip_code', 'kecamatan'];
+const csvOptions = { fields: csvFields };
+
+try {
+  const csv = parse(csvData, csvOptions);
+  fs.writeFileSync(csvFilePath, csv);
+  console.log(`CSV file created successfully at ${csvFilePath}`);
+} catch (err) {
+  console.error('Error creating CSV file:', err);
+}
+
+// Function to normalize GeoJSON features
+const normalizeGeoJsonFeatures = (geoJsonData) => {
   geoJsonData.features.forEach(feature => {
-    const kecamatanName = normalizeString(feature.properties.name);
-    const zipCodes = zipCodeMapping[kecamatanName];
-
-    if (zipCodes) {
-      zipCodes.forEach(zipCode => {
-        const newFeature = {
-          type: "Feature",
-          properties: {
-            zip: zipCode,
-            name: feature.properties.name
-          },
-          geometry: feature.geometry
-        };
-        features.push(newFeature);
-      });
-    } else {
-      // Add the kecamatan even if there are no zip codes
-      const newFeature = {
-        type: "Feature",
-        properties: {
-          zip: null,
-          name: feature.properties.name
-        },
-        geometry: feature.geometry
-      };
-      features.push(newFeature);
-    }
+    feature.properties.name = normalizeString(feature.properties.name);
   });
 
-  return {
-    type: "FeatureCollection",
-    features: features
-  };
+  return geoJsonData;
 };
 
-// Create GeoJSON features
-const updatedGeoJsonData = createGeoJsonFeatures(geoJsonData, zipCodeMapping);
+// Normalize GeoJSON features
+const updatedGeoJsonData = normalizeGeoJsonFeatures(geoJsonData);
 
-// Save the updated GeoJSON to a file
-fs.writeFileSync('kecamatan_zip_codes.geojson', JSON.stringify(updatedGeoJsonData, null, 2));
-console.log('Updated GeoJSON file created successfully.');
+// Save the normalized GeoJSON to a file
+const geoJsonFilePath = path.join(__dirname, 'normalized_kecamatan_jakarta.geojson');
+fs.writeFileSync(geoJsonFilePath, JSON.stringify(updatedGeoJsonData, null, 2));
+console.log(`Normalized GeoJSON file created successfully at ${geoJsonFilePath}`);
