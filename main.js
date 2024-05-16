@@ -14,7 +14,7 @@ const jakartaData = jsonData["31"];
 
 jakartaData.forEach(entry => {
   const zipCode = entry.postal_code;
-  const kecamatan = entry.sub_district.toLowerCase();
+  const kecamatan = entry.sub_district.toLowerCase().replaceAll(' ', '');
 
   if (zipCodeMapping[kecamatan]) {
     zipCodeMapping[kecamatan].push(zipCode);
