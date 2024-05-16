@@ -12,15 +12,16 @@ const zipCodeMapping = {};
 // Filter for Jakarta zip codes (province_code 31)
 const jakartaData = jsonData["31"];
 
-for (const zipCode in jakartaData) {
-  const kecamatan = jakartaData[zipCode].sub_district.toLowerCase();
+jakartaData.forEach(entry => {
+  const zipCode = entry.postal_code;
+  const kecamatan = entry.sub_district.toLowerCase();
 
   if (zipCodeMapping[kecamatan]) {
     zipCodeMapping[kecamatan].push(zipCode);
   } else {
     zipCodeMapping[kecamatan] = [zipCode];
   }
-}
+});
 
 // Function to create GeoJSON features for each zip code
 const createGeoJsonFeatures = (geoJsonData, zipCodeMapping) => {

@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "23",
+        "zip": "10150",
         "name": "GAMBIR"
       },
       "geometry": {
@@ -170,7 +170,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "50",
+        "zip": "10140",
         "name": "GAMBIR"
       },
       "geometry": {
@@ -336,7 +336,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "54",
+        "zip": "10110",
         "name": "GAMBIR"
       },
       "geometry": {
@@ -502,7 +502,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "111",
+        "zip": "10120",
         "name": "GAMBIR"
       },
       "geometry": {
@@ -668,7 +668,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "187",
+        "zip": "10160",
         "name": "GAMBIR"
       },
       "geometry": {
@@ -834,7 +834,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "188",
+        "zip": "10130",
         "name": "GAMBIR"
       },
       "geometry": {
@@ -1000,7 +1000,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "66",
+        "zip": "10720",
         "name": "SAWAH BESAR"
       },
       "geometry": {
@@ -1158,7 +1158,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "95",
+        "zip": "10740",
         "name": "SAWAH BESAR"
       },
       "geometry": {
@@ -1316,7 +1316,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "100",
+        "zip": "10750",
         "name": "SAWAH BESAR"
       },
       "geometry": {
@@ -1474,7 +1474,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "150",
+        "zip": "10730",
         "name": "SAWAH BESAR"
       },
       "geometry": {
@@ -1632,7 +1632,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "168",
+        "zip": "10710",
         "name": "SAWAH BESAR"
       },
       "geometry": {
@@ -1790,7 +1790,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "17",
+        "zip": "10640",
         "name": "KEMAYORAN"
       },
       "geometry": {
@@ -1944,7 +1944,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "65",
+        "zip": "10610",
         "name": "KEMAYORAN"
       },
       "geometry": {
@@ -2098,7 +2098,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "69",
+        "zip": "10640",
         "name": "KEMAYORAN"
       },
       "geometry": {
@@ -2252,7 +2252,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "112",
+        "zip": "10630",
         "name": "KEMAYORAN"
       },
       "geometry": {
@@ -2406,7 +2406,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "125",
+        "zip": "10620",
         "name": "KEMAYORAN"
       },
       "geometry": {
@@ -2560,7 +2560,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "230",
+        "zip": "10650",
         "name": "KEMAYORAN"
       },
       "geometry": {
@@ -2714,7 +2714,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "239",
+        "zip": "10640",
         "name": "KEMAYORAN"
       },
       "geometry": {
@@ -2868,7 +2868,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "264",
+        "zip": "10650",
         "name": "KEMAYORAN"
       },
       "geometry": {
@@ -3022,7 +3022,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "12",
+        "zip": "10460",
         "name": "SENEN"
       },
       "geometry": {
@@ -3220,7 +3220,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "128",
+        "zip": "10430",
         "name": "SENEN"
       },
       "geometry": {
@@ -3418,7 +3418,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "135",
+        "zip": "10450",
         "name": "SENEN"
       },
       "geometry": {
@@ -3616,7 +3616,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "140",
+        "zip": "10420",
         "name": "SENEN"
       },
       "geometry": {
@@ -3814,7 +3814,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "171",
+        "zip": "10440",
         "name": "SENEN"
       },
       "geometry": {
@@ -4012,7 +4012,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "229",
+        "zip": "10410",
         "name": "SENEN"
       },
       "geometry": {
@@ -4210,7 +4210,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "18",
+        "zip": "10520",
         "name": "CEMPAKA PUTIH"
       },
       "geometry": {
@@ -4332,7 +4332,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "19",
+        "zip": "10510",
         "name": "CEMPAKA PUTIH"
       },
       "geometry": {
@@ -4454,7 +4454,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "221",
+        "zip": "10570",
         "name": "CEMPAKA PUTIH"
       },
       "geometry": {
@@ -4576,7 +4576,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "26",
+        "zip": "10330",
         "name": "MENTENG"
       },
       "geometry": {
@@ -4754,7 +4754,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "60",
+        "zip": "10350",
         "name": "MENTENG"
       },
       "geometry": {
@@ -4932,7 +4932,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "116",
+        "zip": "10340",
         "name": "MENTENG"
       },
       "geometry": {
@@ -5110,7 +5110,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "158",
+        "zip": "10310",
         "name": "MENTENG"
       },
       "geometry": {
@@ -5288,7 +5288,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "174",
+        "zip": "10320",
         "name": "MENTENG"
       },
       "geometry": {
@@ -5466,7 +5466,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "8",
+        "zip": "10210",
         "name": "TANAH ABANG"
       },
       "geometry": {
@@ -5648,7 +5648,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "58",
+        "zip": "10270",
         "name": "TANAH ABANG"
       },
       "geometry": {
@@ -5830,7 +5830,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "89",
+        "zip": "10250",
         "name": "TANAH ABANG"
       },
       "geometry": {
@@ -6012,7 +6012,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "98",
+        "zip": "10220",
         "name": "TANAH ABANG"
       },
       "geometry": {
@@ -6194,7 +6194,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "110",
+        "zip": "10240",
         "name": "TANAH ABANG"
       },
       "geometry": {
@@ -6376,7 +6376,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "114",
+        "zip": "10230",
         "name": "TANAH ABANG"
       },
       "geometry": {
@@ -6558,7 +6558,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "185",
+        "zip": "10260",
         "name": "TANAH ABANG"
       },
       "geometry": {
@@ -6740,7 +6740,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "53",
+        "zip": "10530",
         "name": "JOHAR BARU"
       },
       "geometry": {
@@ -6826,7 +6826,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "81",
+        "zip": "10560",
         "name": "JOHAR BARU"
       },
       "geometry": {
@@ -6912,7 +6912,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "91",
+        "zip": "10550",
         "name": "JOHAR BARU"
       },
       "geometry": {
@@ -6998,7 +6998,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "247",
+        "zip": "10540",
         "name": "JOHAR BARU"
       },
       "geometry": {
@@ -7084,7 +7084,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "87",
+        "zip": "14470",
         "name": "PENJARINGAN"
       },
       "geometry": {
@@ -7414,7 +7414,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "93",
+        "zip": "14460",
         "name": "PENJARINGAN"
       },
       "geometry": {
@@ -7744,7 +7744,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "175",
+        "zip": "14450",
         "name": "PENJARINGAN"
       },
       "geometry": {
@@ -8074,7 +8074,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "183",
+        "zip": "14440",
         "name": "PENJARINGAN"
       },
       "geometry": {
@@ -8404,7 +8404,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "195",
+        "zip": "14450",
         "name": "PENJARINGAN"
       },
       "geometry": {
@@ -8734,7 +8734,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "108",
+        "zip": "14320",
         "name": "TANJUNG PRIOK"
       },
       "geometry": {
@@ -8892,7 +8892,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "167",
+        "zip": "14340",
         "name": "TANJUNG PRIOK"
       },
       "geometry": {
@@ -9050,7 +9050,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "240",
+        "zip": "14330",
         "name": "TANJUNG PRIOK"
       },
       "geometry": {
@@ -9208,7 +9208,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "241",
+        "zip": "14350",
         "name": "TANJUNG PRIOK"
       },
       "geometry": {
@@ -9366,7 +9366,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "242",
+        "zip": "14360",
         "name": "TANJUNG PRIOK"
       },
       "geometry": {
@@ -9524,7 +9524,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "252",
+        "zip": "14310",
         "name": "TANJUNG PRIOK"
       },
       "geometry": {
@@ -9682,7 +9682,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "265",
+        "zip": "14370",
         "name": "TANJUNG PRIOK"
       },
       "geometry": {
@@ -9840,7 +9840,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "130",
+        "zip": "14210",
         "name": "KOJA"
       },
       "geometry": {
@@ -9998,7 +9998,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "141",
+        "zip": "14270",
         "name": "KOJA"
       },
       "geometry": {
@@ -10156,7 +10156,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "213",
+        "zip": "14230",
         "name": "KOJA"
       },
       "geometry": {
@@ -10314,7 +10314,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "214",
+        "zip": "14230",
         "name": "KOJA"
       },
       "geometry": {
@@ -10472,7 +10472,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "258",
+        "zip": "14260",
         "name": "KOJA"
       },
       "geometry": {
@@ -10630,7 +10630,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "259",
+        "zip": "14260",
         "name": "KOJA"
       },
       "geometry": {
@@ -10788,7 +10788,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "32",
+        "zip": "14120",
         "name": "CILINCING"
       },
       "geometry": {
@@ -11178,7 +11178,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "83",
+        "zip": "14110",
         "name": "CILINCING"
       },
       "geometry": {
@@ -11568,7 +11568,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "154",
+        "zip": "14150",
         "name": "CILINCING"
       },
       "geometry": {
@@ -11958,7 +11958,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "223",
+        "zip": "14140",
         "name": "CILINCING"
       },
       "geometry": {
@@ -12348,7 +12348,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "226",
+        "zip": "14130",
         "name": "CILINCING"
       },
       "geometry": {
@@ -12738,7 +12738,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "227",
+        "zip": "14130",
         "name": "CILINCING"
       },
       "geometry": {
@@ -13128,7 +13128,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "238",
+        "zip": "14140",
         "name": "CILINCING"
       },
       "geometry": {
@@ -13518,7 +13518,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "0",
+        "zip": "14430",
         "name": "PADEMANGAN"
       },
       "geometry": {
@@ -13998,7 +13998,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "162",
+        "zip": "14420",
         "name": "PADEMANGAN"
       },
       "geometry": {
@@ -14478,7 +14478,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "163",
+        "zip": "14410",
         "name": "PADEMANGAN"
       },
       "geometry": {
@@ -14958,7 +14958,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "122",
+        "zip": "14240",
         "name": "KELAPA GADING"
       },
       "geometry": {
@@ -15112,7 +15112,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "123",
+        "zip": "14240",
         "name": "KELAPA GADING"
       },
       "geometry": {
@@ -15266,7 +15266,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "173",
+        "zip": "14250",
         "name": "KELAPA GADING"
       },
       "geometry": {
@@ -15420,7 +15420,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "20",
+        "zip": "11730",
         "name": "CENGKARENG"
       },
       "geometry": {
@@ -15730,7 +15730,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "21",
+        "zip": "11730",
         "name": "CENGKARENG"
       },
       "geometry": {
@@ -16040,7 +16040,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "49",
+        "zip": "11750",
         "name": "CENGKARENG"
       },
       "geometry": {
@@ -16350,7 +16350,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "94",
+        "zip": "11720",
         "name": "CENGKARENG"
       },
       "geometry": {
@@ -16660,7 +16660,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "117",
+        "zip": "11710",
         "name": "CENGKARENG"
       },
       "geometry": {
@@ -16970,7 +16970,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "216",
+        "zip": "11740",
         "name": "CENGKARENG"
       },
       "geometry": {
@@ -17280,7 +17280,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "63",
+        "zip": "11450",
         "name": "GROGOL PETAMBURAN"
       },
       "geometry": {
@@ -17402,7 +17402,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "76",
+        "zip": "11460",
         "name": "GROGOL PETAMBURAN"
       },
       "geometry": {
@@ -17524,7 +17524,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "77",
+        "zip": "11460",
         "name": "GROGOL PETAMBURAN"
       },
       "geometry": {
@@ -17646,7 +17646,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "250",
+        "zip": "11470",
         "name": "GROGOL PETAMBURAN"
       },
       "geometry": {
@@ -17768,7 +17768,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "251",
+        "zip": "11470",
         "name": "GROGOL PETAMBURAN"
       },
       "geometry": {
@@ -17890,7 +17890,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "257",
+        "zip": "11440",
         "name": "GROGOL PETAMBURAN"
       },
       "geometry": {
@@ -18012,7 +18012,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "266",
+        "zip": "11460",
         "name": "GROGOL PETAMBURAN"
       },
       "geometry": {
@@ -18134,7 +18134,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "59",
+        "zip": "11120",
         "name": "TAMAN SARI"
       },
       "geometry": {
@@ -18260,7 +18260,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "103",
+        "zip": "11130",
         "name": "TAMAN SARI"
       },
       "geometry": {
@@ -18386,7 +18386,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "137",
+        "zip": "11140",
         "name": "TAMAN SARI"
       },
       "geometry": {
@@ -18512,7 +18512,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "149",
+        "zip": "11180",
         "name": "TAMAN SARI"
       },
       "geometry": {
@@ -18638,7 +18638,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "153",
+        "zip": "11160",
         "name": "TAMAN SARI"
       },
       "geometry": {
@@ -18764,7 +18764,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "192",
+        "zip": "11110",
         "name": "TAMAN SARI"
       },
       "geometry": {
@@ -18890,7 +18890,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "244",
+        "zip": "11150",
         "name": "TAMAN SARI"
       },
       "geometry": {
@@ -19016,7 +19016,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "248",
+        "zip": "11170",
         "name": "TAMAN SARI"
       },
       "geometry": {
@@ -19142,7 +19142,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "1",
+        "zip": "11330",
         "name": "TAMBORA"
       },
       "geometry": {
@@ -19284,7 +19284,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "51",
+        "zip": "11270",
         "name": "TAMBORA"
       },
       "geometry": {
@@ -19426,7 +19426,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "52",
+        "zip": "11270",
         "name": "TAMBORA"
       },
       "geometry": {
@@ -19568,7 +19568,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "78",
+        "zip": "11320",
         "name": "TAMBORA"
       },
       "geometry": {
@@ -19710,7 +19710,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "79",
+        "zip": "11250",
         "name": "TAMBORA"
       },
       "geometry": {
@@ -19852,7 +19852,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "82",
+        "zip": "11310",
         "name": "TAMBORA"
       },
       "geometry": {
@@ -19994,7 +19994,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "136",
+        "zip": "11260",
         "name": "TAMBORA"
       },
       "geometry": {
@@ -20136,7 +20136,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "179",
+        "zip": "11240",
         "name": "TAMBORA"
       },
       "geometry": {
@@ -20278,7 +20278,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "222",
+        "zip": "11230",
         "name": "TAMBORA"
       },
       "geometry": {
@@ -20420,7 +20420,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "245",
+        "zip": "11220",
         "name": "TAMBORA"
       },
       "geometry": {
@@ -20562,7 +20562,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "246",
+        "zip": "11210",
         "name": "TAMBORA"
       },
       "geometry": {
@@ -20704,7 +20704,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "48",
+        "zip": "11510",
         "name": "KEBON JERUK"
       },
       "geometry": {
@@ -20970,7 +20970,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "109",
+        "zip": "11530",
         "name": "KEBON JERUK"
       },
       "geometry": {
@@ -21236,7 +21236,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "118",
+        "zip": "11520",
         "name": "KEBON JERUK"
       },
       "geometry": {
@@ -21502,7 +21502,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "119",
+        "zip": "11520",
         "name": "KEBON JERUK"
       },
       "geometry": {
@@ -21768,7 +21768,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "121",
+        "zip": "11550",
         "name": "KEBON JERUK"
       },
       "geometry": {
@@ -22034,7 +22034,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "236",
+        "zip": "11560",
         "name": "KEBON JERUK"
       },
       "geometry": {
@@ -22300,7 +22300,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "237",
+        "zip": "11540",
         "name": "KEBON JERUK"
       },
       "geometry": {
@@ -22566,7 +22566,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "85",
+        "zip": "11840",
         "name": "KALIDERES"
       },
       "geometry": {
@@ -22904,7 +22904,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "88",
+        "zip": "11810",
         "name": "KALIDERES"
       },
       "geometry": {
@@ -23242,7 +23242,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "172",
+        "zip": "11830",
         "name": "KALIDERES"
       },
       "geometry": {
@@ -23580,7 +23580,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "225",
+        "zip": "11850",
         "name": "KALIDERES"
       },
       "geometry": {
@@ -23918,7 +23918,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "255",
+        "zip": "11820",
         "name": "KALIDERES"
       },
       "geometry": {
@@ -24256,7 +24256,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "75",
+        "zip": "11430",
         "name": "PALMERAH"
       },
       "geometry": {
@@ -24390,7 +24390,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "124",
+        "zip": "11480",
         "name": "PALMERAH"
       },
       "geometry": {
@@ -24524,7 +24524,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "131",
+        "zip": "11420",
         "name": "PALMERAH"
       },
       "geometry": {
@@ -24658,7 +24658,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "132",
+        "zip": "11420",
         "name": "PALMERAH"
       },
       "geometry": {
@@ -24792,7 +24792,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "165",
+        "zip": "11480",
         "name": "PALMERAH"
       },
       "geometry": {
@@ -24926,7 +24926,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "233",
+        "zip": "11410",
         "name": "PALMERAH"
       },
       "geometry": {
@@ -25060,7 +25060,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "80",
+        "zip": "11640",
         "name": "KEMBANGAN"
       },
       "geometry": {
@@ -25422,7 +25422,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "126",
+        "zip": "11610",
         "name": "KEMBANGAN"
       },
       "geometry": {
@@ -25784,7 +25784,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "127",
+        "zip": "11610",
         "name": "KEMBANGAN"
       },
       "geometry": {
@@ -26146,7 +26146,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "159",
+        "zip": "11650",
         "name": "KEMBANGAN"
       },
       "geometry": {
@@ -26508,7 +26508,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "160",
+        "zip": "11620",
         "name": "KEMBANGAN"
       },
       "geometry": {
@@ -26870,7 +26870,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "235",
+        "zip": "11630",
         "name": "KEMBANGAN"
       },
       "geometry": {
@@ -27232,7 +27232,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "11",
+        "zip": "12840",
         "name": "TEBET"
       },
       "geometry": {
@@ -27458,7 +27458,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "107",
+        "zip": "12830",
         "name": "TEBET"
       },
       "geometry": {
@@ -27684,7 +27684,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "151",
+        "zip": "12860",
         "name": "TEBET"
       },
       "geometry": {
@@ -27910,7 +27910,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "152",
+        "zip": "12850",
         "name": "TEBET"
       },
       "geometry": {
@@ -28136,7 +28136,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "157",
+        "zip": "12870",
         "name": "TEBET"
       },
       "geometry": {
@@ -28362,7 +28362,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "253",
+        "zip": "12810",
         "name": "TEBET"
       },
       "geometry": {
@@ -28588,7 +28588,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "254",
+        "zip": "12820",
         "name": "TEBET"
       },
       "geometry": {
@@ -28936,7 +28936,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "5",
+        "zip": "12730",
         "name": "MAMPANG PRAPATAN"
       },
       "geometry": {
@@ -29138,7 +29138,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "138",
+        "zip": "12710",
         "name": "MAMPANG PRAPATAN"
       },
       "geometry": {
@@ -29340,7 +29340,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "148",
+        "zip": "12790",
         "name": "MAMPANG PRAPATAN"
       },
       "geometry": {
@@ -29542,7 +29542,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "180",
+        "zip": "12720",
         "name": "MAMPANG PRAPATAN"
       },
       "geometry": {
@@ -29744,7 +29744,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "256",
+        "zip": "12790",
         "name": "MAMPANG PRAPATAN"
       },
       "geometry": {
@@ -29946,7 +29946,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "29",
+        "zip": "12560",
         "name": "PASAR MINGGU"
       },
       "geometry": {
@@ -30332,7 +30332,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "71",
+        "zip": "12540",
         "name": "PASAR MINGGU"
       },
       "geometry": {
@@ -30718,7 +30718,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "104",
+        "zip": "12520",
         "name": "PASAR MINGGU"
       },
       "geometry": {
@@ -31104,7 +31104,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "170",
+        "zip": "12520",
         "name": "PASAR MINGGU"
       },
       "geometry": {
@@ -31490,7 +31490,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "176",
+        "zip": "12510",
         "name": "PASAR MINGGU"
       },
       "geometry": {
@@ -31876,7 +31876,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "177",
+        "zip": "12510",
         "name": "PASAR MINGGU"
       },
       "geometry": {
@@ -32262,7 +32262,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "211",
+        "zip": "12550",
         "name": "PASAR MINGGU"
       },
       "geometry": {
@@ -32648,7 +32648,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "43",
+        "zip": "12230",
         "name": "KEBAYORAN LAMA"
       },
       "geometry": {
@@ -33066,7 +33066,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "61",
+        "zip": "12220",
         "name": "KEBAYORAN LAMA"
       },
       "geometry": {
@@ -33484,7 +33484,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "62",
+        "zip": "12210",
         "name": "KEBAYORAN LAMA"
       },
       "geometry": {
@@ -33902,7 +33902,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "105",
+        "zip": "12240",
         "name": "KEBAYORAN LAMA"
       },
       "geometry": {
@@ -34320,7 +34320,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "106",
+        "zip": "12240",
         "name": "KEBAYORAN LAMA"
       },
       "geometry": {
@@ -34738,7 +34738,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "200",
+        "zip": "12310",
         "name": "KEBAYORAN LAMA"
       },
       "geometry": {
@@ -35156,7 +35156,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "28",
+        "zip": "12430",
         "name": "CILANDAK"
       },
       "geometry": {
@@ -35474,7 +35474,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "35",
+        "zip": "12410",
         "name": "CILANDAK"
       },
       "geometry": {
@@ -35792,7 +35792,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "55",
+        "zip": "12420",
         "name": "CILANDAK"
       },
       "geometry": {
@@ -36110,7 +36110,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "142",
+        "zip": "12440",
         "name": "CILANDAK"
       },
       "geometry": {
@@ -36428,7 +36428,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "199",
+        "zip": "12450",
         "name": "CILANDAK"
       },
       "geometry": {
@@ -36746,7 +36746,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "36",
+        "zip": "12150",
         "name": "KEBAYORAN BARU"
       },
       "geometry": {
@@ -36984,7 +36984,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "56",
+        "zip": "12140",
         "name": "KEBAYORAN BARU"
       },
       "geometry": {
@@ -37222,7 +37222,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "67",
+        "zip": "12120",
         "name": "KEBAYORAN BARU"
       },
       "geometry": {
@@ -37460,7 +37460,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "134",
+        "zip": "12130",
         "name": "KEBAYORAN BARU"
       },
       "geometry": {
@@ -37698,7 +37698,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "155",
+        "zip": "12160",
         "name": "KEBAYORAN BARU"
       },
       "geometry": {
@@ -37936,7 +37936,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "186",
+        "zip": "12170",
         "name": "KEBAYORAN BARU"
       },
       "geometry": {
@@ -38174,7 +38174,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "210",
+        "zip": "12160",
         "name": "KEBAYORAN BARU"
       },
       "geometry": {
@@ -38412,7 +38412,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "215",
+        "zip": "12180",
         "name": "KEBAYORAN BARU"
       },
       "geometry": {
@@ -38650,7 +38650,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "224",
+        "zip": "12110",
         "name": "KEBAYORAN BARU"
       },
       "geometry": {
@@ -38888,7 +38888,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "228",
+        "zip": "12190",
         "name": "KEBAYORAN BARU"
       },
       "geometry": {
@@ -39126,7 +39126,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "27",
+        "zip": "12770",
         "name": "PANCORAN"
       },
       "geometry": {
@@ -39364,7 +39364,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "47",
+        "zip": "12760",
         "name": "PANCORAN"
       },
       "geometry": {
@@ -39602,7 +39602,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "84",
+        "zip": "12740",
         "name": "PANCORAN"
       },
       "geometry": {
@@ -39840,7 +39840,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "166",
+        "zip": "12780",
         "name": "PANCORAN"
       },
       "geometry": {
@@ -40078,7 +40078,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "181",
+        "zip": "12770",
         "name": "PANCORAN"
       },
       "geometry": {
@@ -40316,7 +40316,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "218",
+        "zip": "12750",
         "name": "PANCORAN"
       },
       "geometry": {
@@ -40554,7 +40554,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "24",
+        "zip": "12630",
         "name": "JAGAKARSA"
       },
       "geometry": {
@@ -41024,7 +41024,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "34",
+        "zip": "12630",
         "name": "JAGAKARSA"
       },
       "geometry": {
@@ -41494,7 +41494,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "70",
+        "zip": "12620",
         "name": "JAGAKARSA"
       },
       "geometry": {
@@ -41964,7 +41964,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "143",
+        "zip": "12630",
         "name": "JAGAKARSA"
       },
       "geometry": {
@@ -42434,7 +42434,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "234",
+        "zip": "12640",
         "name": "JAGAKARSA"
       },
       "geometry": {
@@ -42904,7 +42904,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "249",
+        "zip": "12530",
         "name": "JAGAKARSA"
       },
       "geometry": {
@@ -43374,7 +43374,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "10",
+        "zip": "12330",
         "name": "PESANGGRAHAN"
       },
       "geometry": {
@@ -43756,7 +43756,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "184",
+        "zip": "12320",
         "name": "PESANGGRAHAN"
       },
       "geometry": {
@@ -44138,7 +44138,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "189",
+        "zip": "12270",
         "name": "PESANGGRAHAN"
       },
       "geometry": {
@@ -44520,7 +44520,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "190",
+        "zip": "12260",
         "name": "PESANGGRAHAN"
       },
       "geometry": {
@@ -44902,7 +44902,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "261",
+        "zip": "12250",
         "name": "PESANGGRAHAN"
       },
       "geometry": {
@@ -45284,7 +45284,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "101",
+        "zip": "13130",
         "name": "MATRAMAN"
       },
       "geometry": {
@@ -45414,7 +45414,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "113",
+        "zip": "13150",
         "name": "MATRAMAN"
       },
       "geometry": {
@@ -45544,7 +45544,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "164",
+        "zip": "13140",
         "name": "MATRAMAN"
       },
       "geometry": {
@@ -45674,7 +45674,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "193",
+        "zip": "13110",
         "name": "MATRAMAN"
       },
       "geometry": {
@@ -45804,7 +45804,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "262",
+        "zip": "13120",
         "name": "MATRAMAN"
       },
       "geometry": {
@@ -45934,7 +45934,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "263",
+        "zip": "13120",
         "name": "MATRAMAN"
       },
       "geometry": {
@@ -46210,7 +46210,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "3",
+        "zip": "13310",
         "name": "JATINEGARA"
       },
       "geometry": {
@@ -46464,7 +46464,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "9",
+        "zip": "13330",
         "name": "JATINEGARA"
       },
       "geometry": {
@@ -46718,7 +46718,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "37",
+        "zip": "13410",
         "name": "JATINEGARA"
       },
       "geometry": {
@@ -46972,7 +46972,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "38",
+        "zip": "13410",
         "name": "JATINEGARA"
       },
       "geometry": {
@@ -47226,7 +47226,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "39",
+        "zip": "13340",
         "name": "JATINEGARA"
       },
       "geometry": {
@@ -47480,7 +47480,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "41",
+        "zip": "13420",
         "name": "JATINEGARA"
       },
       "geometry": {
@@ -47734,7 +47734,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "90",
+        "zip": "13320",
         "name": "JATINEGARA"
       },
       "geometry": {
@@ -47988,7 +47988,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "217",
+        "zip": "13350",
         "name": "JATINEGARA"
       },
       "geometry": {
@@ -48242,7 +48242,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "2",
+        "zip": "13530",
         "name": "KRAMAT JATI"
       },
       "geometry": {
@@ -48616,7 +48616,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "7",
+        "zip": "13520",
         "name": "KRAMAT JATI"
       },
       "geometry": {
@@ -48990,7 +48990,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "15",
+        "zip": "13630",
         "name": "KRAMAT JATI"
       },
       "geometry": {
@@ -49364,7 +49364,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "31",
+        "zip": "13640",
         "name": "KRAMAT JATI"
       },
       "geometry": {
@@ -49738,7 +49738,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "45",
+        "zip": "13550",
         "name": "KRAMAT JATI"
       },
       "geometry": {
@@ -50112,7 +50112,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "92",
+        "zip": "13540",
         "name": "KRAMAT JATI"
       },
       "geometry": {
@@ -50486,7 +50486,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "133",
+        "zip": "13510",
         "name": "KRAMAT JATI"
       },
       "geometry": {
@@ -50860,7 +50860,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "6",
+        "zip": "13780",
         "name": "PASAR REBO"
       },
       "geometry": {
@@ -51210,7 +51210,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "25",
+        "zip": "13770",
         "name": "PASAR REBO"
       },
       "geometry": {
@@ -51560,7 +51560,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "57",
+        "zip": "13760",
         "name": "PASAR REBO"
       },
       "geometry": {
@@ -51910,7 +51910,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "86",
+        "zip": "13790",
         "name": "PASAR REBO"
       },
       "geometry": {
@@ -52260,7 +52260,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "178",
+        "zip": "13710",
         "name": "PASAR REBO"
       },
       "geometry": {
@@ -52610,7 +52610,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "13",
+        "zip": "13910",
         "name": "CAKUNG"
       },
       "geometry": {
@@ -52928,7 +52928,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "14",
+        "zip": "13910",
         "name": "CAKUNG"
       },
       "geometry": {
@@ -53246,7 +53246,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "74",
+        "zip": "13930",
         "name": "CAKUNG"
       },
       "geometry": {
@@ -53564,7 +53564,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "182",
+        "zip": "13940",
         "name": "CAKUNG"
       },
       "geometry": {
@@ -53882,7 +53882,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "209",
+        "zip": "13950",
         "name": "CAKUNG"
       },
       "geometry": {
@@ -54200,7 +54200,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "219",
+        "zip": "13920",
         "name": "CAKUNG"
       },
       "geometry": {
@@ -54518,7 +54518,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "260",
+        "zip": "13960",
         "name": "CAKUNG"
       },
       "geometry": {
@@ -54836,7 +54836,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "46",
+        "zip": "13440",
         "name": "DUREN SAWIT"
       },
       "geometry": {
@@ -55042,7 +55042,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "129",
+        "zip": "13470",
         "name": "DUREN SAWIT"
       },
       "geometry": {
@@ -55248,7 +55248,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "146",
+        "zip": "13460",
         "name": "DUREN SAWIT"
       },
       "geometry": {
@@ -55454,7 +55454,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "147",
+        "zip": "13460",
         "name": "DUREN SAWIT"
       },
       "geometry": {
@@ -55660,7 +55660,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "196",
+        "zip": "13430",
         "name": "DUREN SAWIT"
       },
       "geometry": {
@@ -55866,7 +55866,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "197",
+        "zip": "13450",
         "name": "DUREN SAWIT"
       },
       "geometry": {
@@ -56072,7 +56072,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "198",
+        "zip": "13460",
         "name": "DUREN SAWIT"
       },
       "geometry": {
@@ -56278,7 +56278,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "40",
+        "zip": "13620",
         "name": "MAKASAR"
       },
       "geometry": {
@@ -56524,7 +56524,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "68",
+        "zip": "13610",
         "name": "MAKASAR"
       },
       "geometry": {
@@ -56770,7 +56770,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "115",
+        "zip": "13650",
         "name": "MAKASAR"
       },
       "geometry": {
@@ -57016,7 +57016,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "145",
+        "zip": "13570",
         "name": "MAKASAR"
       },
       "geometry": {
@@ -57262,7 +57262,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "191",
+        "zip": "13560",
         "name": "MAKASAR"
       },
       "geometry": {
@@ -57508,7 +57508,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "22",
+        "zip": "13720",
         "name": "CIRACAS"
       },
       "geometry": {
@@ -57814,7 +57814,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "44",
+        "zip": "13740",
         "name": "CIRACAS"
       },
       "geometry": {
@@ -58120,7 +58120,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "120",
+        "zip": "13730",
         "name": "CIRACAS"
       },
       "geometry": {
@@ -58426,7 +58426,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "212",
+        "zip": "13830",
         "name": "CIRACAS"
       },
       "geometry": {
@@ -58732,7 +58732,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "243",
+        "zip": "13750",
         "name": "CIRACAS"
       },
       "geometry": {
@@ -59038,7 +59038,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "4",
+        "zip": "13890",
         "name": "CIPAYUNG"
       },
       "geometry": {
@@ -59376,7 +59376,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "16",
+        "zip": "13820",
         "name": "CIPAYUNG"
       },
       "geometry": {
@@ -59714,7 +59714,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "30",
+        "zip": "13870",
         "name": "CIPAYUNG"
       },
       "geometry": {
@@ -60052,7 +60052,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "33",
+        "zip": "13840",
         "name": "CIPAYUNG"
       },
       "geometry": {
@@ -60390,7 +60390,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "144",
+        "zip": "13810",
         "name": "CIPAYUNG"
       },
       "geometry": {
@@ -60728,7 +60728,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "161",
+        "zip": "13850",
         "name": "CIPAYUNG"
       },
       "geometry": {
@@ -61066,7 +61066,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "201",
+        "zip": "13860",
         "name": "CIPAYUNG"
       },
       "geometry": {
@@ -61404,7 +61404,7 @@
     {
       "type": "Feature",
       "properties": {
-        "zip": "232",
+        "zip": "13880",
         "name": "CIPAYUNG"
       },
       "geometry": {
