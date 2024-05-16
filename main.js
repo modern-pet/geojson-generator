@@ -6,6 +6,11 @@ const geoJsonData = JSON.parse(fs.readFileSync('./kecamatan.geojson', 'utf8'));
 // Load the comprehensive JSON file
 const jsonData = JSON.parse(fs.readFileSync('./postal_codes.json', 'utf8'));
 
+// Function to normalize strings by lowercasing and removing extra spaces
+const normalizeString = (str) => {
+  return str.toLowerCase().replace(/\s+/g, ' ').trim();
+};
+
 // Initialize zip code mapping
 const zipCodeMapping = {};
 
@@ -14,7 +19,7 @@ const jakartaData = jsonData["31"];
 
 jakartaData.forEach(entry => {
   const zipCode = entry.postal_code;
-  const kecamatan = entry.sub_district.toLowerCase().replaceAll(' ', '');
+  const kecamatan = normalizeString(entry.sub_district);
 
   if (zipCodeMapping[kecamatan]) {
     zipCodeMapping[kecamatan].push(zipCode);
@@ -28,7 +33,7 @@ const createGeoJsonFeatures = (geoJsonData, zipCodeMapping) => {
   const features = [];
 
   geoJsonData.features.forEach(feature => {
-    const kecamatanName = feature.properties.name.toLowerCase();
+    const kecamatanName = normalizeString(feature.properties.name);
     const zipCodes = zipCodeMapping[kecamatanName];
 
     if (zipCodes) {
