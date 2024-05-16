@@ -1,5 +1,4 @@
 const fs = require('fs');
-require('dotenv').config(); // Load environment variables from .env file
 
 // Load the GeoJSON file
 const geoJsonData = JSON.parse(fs.readFileSync('./kecamatan.geojson', 'utf8'));
@@ -46,21 +45,37 @@ const zipCodeMapping = {
   "penjaringan": ["14460", "14470", "14480", "14490"]
 };
 
-// Function to update the GeoJSON data with postal codes
-const updateGeoJsonWithPostalCodes = (geoJsonData, zipCodeMapping) => {
+// Function to create GeoJSON features for each zip code
+const createGeoJsonFeatures = (geoJsonData, zipCodeMapping) => {
+  const features = [];
+
   geoJsonData.features.forEach(feature => {
     const kecamatanName = feature.properties.name.toLowerCase();
-    if (zipCodeMapping[kecamatanName]) {
-      feature.properties.postal_codes = zipCodeMapping[kecamatanName];
-      // Add a zip property for Metabase to use as the region identifier
-      feature.properties.zip = zipCodeMapping[kecamatanName];
+    const zipCodes = zipCodeMapping[kecamatanName];
+
+    if (zipCodes) {
+      zipCodes.forEach(zipCode => {
+        const newFeature = {
+          type: "Feature",
+          properties: {
+            zip: zipCode,
+            name: feature.properties.name
+          },
+          geometry: feature.geometry
+        };
+        features.push(newFeature);
+      });
     }
   });
-  return geoJsonData;
+
+  return {
+    type: "FeatureCollection",
+    features: features
+  };
 };
 
-// Update the GeoJSON data
-const updatedGeoJsonData = updateGeoJsonWithPostalCodes(geoJsonData, zipCodeMapping);
+// Create GeoJSON features for each zip code
+const updatedGeoJsonData = createGeoJsonFeatures(geoJsonData, zipCodeMapping);
 
 // Save the updated GeoJSON to a file
 fs.writeFileSync('kecamatan_zip_codes.geojson', JSON.stringify(updatedGeoJsonData, null, 2));
