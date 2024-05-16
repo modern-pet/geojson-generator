@@ -28,7 +28,7 @@ jakartaData.forEach(entry => {
   }
 });
 
-// Function to create GeoJSON features for each zip code
+// Function to create GeoJSON features for each kecamatan
 const createGeoJsonFeatures = (geoJsonData, zipCodeMapping) => {
   const features = [];
 
@@ -37,23 +37,21 @@ const createGeoJsonFeatures = (geoJsonData, zipCodeMapping) => {
     const zipCodes = zipCodeMapping[kecamatanName];
 
     if (zipCodes) {
-      zipCodes.forEach(zipCode => {
-        const newFeature = {
-          type: "Feature",
-          properties: {
-            zip: zipCode,
-            name: feature.properties.name
-          },
-          geometry: feature.geometry
-        };
-        features.push(newFeature);
-      });
+      const newFeature = {
+        type: "Feature",
+        properties: {
+          zip_codes: zipCodes,
+          name: feature.properties.name
+        },
+        geometry: feature.geometry
+      };
+      features.push(newFeature);
     } else {
       // Add the kecamatan even if there are no zip codes
       const newFeature = {
         type: "Feature",
         properties: {
-          zip: null,
+          zip_codes: [],
           name: feature.properties.name
         },
         geometry: feature.geometry
