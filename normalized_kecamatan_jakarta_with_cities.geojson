@@ -10353,7 +10353,14 @@
         "Parent": 31,
         "Province": "DKI JAKARTA",
         "Country": "INDONESIA",
-        "city": "SOUTH JAKARTA"
+        "city": "SOUTH JAKARTA",
+        "style": {
+          "fillColor": "#FF0000",
+          "fillOpacity": 0.3,
+          "stroke": true,
+          "color": "#FF0000",
+          "weight": 2
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -23035,7 +23042,14 @@
         "Parent": 31,
         "Province": "DKI JAKARTA",
         "Country": "INDONESIA",
-        "city": "NORTH JAKARTA"
+        "city": "NORTH JAKARTA",
+        "style": {
+          "fillColor": "#00FF00",
+          "fillOpacity": 0.3,
+          "stroke": true,
+          "color": "#00FF00",
+          "weight": 2
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -34685,7 +34699,14 @@
         "Parent": 31,
         "Province": "DKI JAKARTA",
         "Country": "INDONESIA",
-        "city": "CENTRAL JAKARTA"
+        "city": "CENTRAL JAKARTA",
+        "style": {
+          "fillColor": "#0000FF",
+          "fillOpacity": 0.3,
+          "stroke": true,
+          "color": "#0000FF",
+          "weight": 2
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -39435,7 +39456,14 @@
         "Parent": 31,
         "Province": "DKI JAKARTA",
         "Country": "INDONESIA",
-        "city": "EAST JAKARTA"
+        "city": "EAST JAKARTA",
+        "style": {
+          "fillColor": "#FFFF00",
+          "fillOpacity": 0.3,
+          "stroke": true,
+          "color": "#FFFF00",
+          "weight": 2
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -55529,7 +55557,14 @@
         "Parent": 31,
         "Province": "DKI JAKARTA",
         "Country": "INDONESIA",
-        "city": "WEST JAKARTA"
+        "city": "WEST JAKARTA",
+        "style": {
+          "fillColor": "#FF00FF",
+          "fillOpacity": 0.3,
+          "stroke": true,
+          "color": "#FF00FF",
+          "weight": 2
+        }
       },
       "geometry": {
         "type": "Polygon",
