@@ -64,9 +64,44 @@ const normalizeGeoJsonFeatures = (geoJsonData) => {
 };
 
 // Normalize GeoJSON features
-const updatedGeoJsonData = normalizeGeoJsonFeatures(geoJsonData);
+const normalizedGeoJsonData = normalizeGeoJsonFeatures(JSON.parse(JSON.stringify(geoJsonData)));
 
-// Save the normalized GeoJSON to a file
-const geoJsonFilePath = path.join(__dirname, 'normalized_kecamatan_jakarta.geojson');
-fs.writeFileSync(geoJsonFilePath, JSON.stringify(updatedGeoJsonData, null, 2));
-console.log(`Normalized GeoJSON file created successfully at ${geoJsonFilePath}`);
+// Save the normalized GeoJSON without points to a file
+const normalizedGeoJsonFilePath = path.join(__dirname, 'normalized_kecamatan_jakarta.geojson');
+fs.writeFileSync(normalizedGeoJsonFilePath, JSON.stringify(normalizedGeoJsonData, null, 2));
+console.log(`Normalized GeoJSON file created successfully at ${normalizedGeoJsonFilePath}`);
+
+// Add clinic locations as points
+const clinicLocations = [
+  {
+    type: "Feature",
+    properties: {
+      name: "modernvet - PIK",
+      description: "modernvet - PIK"
+    },
+    geometry: {
+      type: "Point",
+      coordinates: [-6.1121723405128705, 106.7378894251013] // Replace with the actual coordinates of Clinic 1
+    }
+  },
+  {
+    type: "Feature",
+    properties: {
+      name: "modernvet - Kuningan",
+      description: "modernvet - Kuningan"
+    },
+    geometry: {
+      type: "Point",
+      coordinates: [-6.208584109734385, 106.83647792325063] // Replace with the actual coordinates of Clinic 2
+    }
+  }
+];
+
+// Append clinic locations to the features
+const geoJsonWithPointsData = JSON.parse(JSON.stringify(normalizedGeoJsonData));
+geoJsonWithPointsData.features.push(...clinicLocations);
+
+// Save the normalized GeoJSON with points to a file
+const geoJsonWithPointsFilePath = path.join(__dirname, 'normalized_kecamatan_jakarta_with_points.geojson');
+fs.writeFileSync(geoJsonWithPointsFilePath, JSON.stringify(geoJsonWithPointsData, null, 2));
+console.log(`Normalized GeoJSON with points file created successfully at ${geoJsonWithPointsFilePath}`);
