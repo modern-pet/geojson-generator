@@ -10340,6 +10340,34 @@
       "properties": {
         "name": "CIPAYUNG"
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "modernvet - PIK",
+        "description": "modernvet - PIK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1121723405128705,
+          106.7378894251013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "modernvet - Kuningan",
+        "description": "modernvet - Kuningan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.208584109734385,
+          106.83647792325063
+        ]
+      }
     }
   ]
 }

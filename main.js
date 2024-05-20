@@ -66,6 +66,35 @@ const normalizeGeoJsonFeatures = (geoJsonData) => {
 // Normalize GeoJSON features
 const updatedGeoJsonData = normalizeGeoJsonFeatures(geoJsonData);
 
+// Add clinic locations as points
+const clinicLocations = [
+  {
+    type: "Feature",
+    properties: {
+      name: "modernvet - PIK",
+      description: "modernvet - PIK"
+    },
+    geometry: {
+      type: "Point",
+      coordinates: [-6.1121723405128705, 106.7378894251013] // Replace with the actual coordinates of Clinic 1
+    }
+  },
+  {
+    type: "Feature",
+    properties: {
+      name: "modernvet - Kuningan",
+      description: "modernvet - Kuningan"
+    },
+    geometry: {
+      type: "Point",
+      coordinates: [-6.208584109734385, 106.83647792325063] // Replace with the actual coordinates of Clinic 2
+    }
+  }
+];
+
+// Append clinic locations to the features
+updatedGeoJsonData.features.push(...clinicLocations);
+
 // Save the normalized GeoJSON to a file
 const geoJsonFilePath = path.join(__dirname, 'normalized_kecamatan_jakarta.geojson');
 fs.writeFileSync(geoJsonFilePath, JSON.stringify(updatedGeoJsonData, null, 2));
