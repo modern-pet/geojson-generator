@@ -2,11 +2,24 @@ const fs = require('fs');
 const path = require('path');
 const { parse } = require('json2csv');
 
+// Create output directory if it doesn't exist
+const outputDir = path.join(__dirname, 'output');
+if (!fs.existsSync(outputDir)){
+    fs.mkdirSync(outputDir);
+}
+
 // Load the main GeoJSON file
-const geoJsonData = JSON.parse(fs.readFileSync('./kecamatan_jakarta.geojson', 'utf8'));
+const geoJsonData = JSON.parse(fs.readFileSync('./input/geojson/kecamatan_jakarta.geojson', 'utf8'));
 
 // Load the comprehensive JSON file
-const jsonData = JSON.parse(fs.readFileSync('./postal_codes_jakarta.json', 'utf8'));
+const jsonData = JSON.parse(fs.readFileSync('./input/postal_codes_jakarta.json', 'utf8'));
+
+// Load the city GeoJSON files
+const centralJakartaData = JSON.parse(fs.readFileSync('./input/geojson/central_jakarta.geojson', 'utf8'));
+const eastJakartaData = JSON.parse(fs.readFileSync('./input/geojson/east_jakarta.geojson', 'utf8'));
+const northJakartaData = JSON.parse(fs.readFileSync('./input/geojson/north_jakarta.geojson', 'utf8'));
+const southJakartaData = JSON.parse(fs.readFileSync('./input/geojson/south_jakarta.geojson', 'utf8'));
+const westJakartaData = JSON.parse(fs.readFileSync('./input/geojson/west_jakarta.geojson', 'utf8'));
 
 // Function to normalize strings by uppercasing and removing extra spaces
 const normalizeString = (str) => {
@@ -42,7 +55,7 @@ Object.keys(zipCodeMapping).forEach(kecamatan => {
 });
 
 // Write the CSV file
-const csvFilePath = path.join(__dirname, 'zip_to_kecamatan_mapping.csv');
+const csvFilePath = path.join(outputDir, 'zip_to_kecamatan_mapping.csv');
 const csvFields = ['zip_code', 'kecamatan'];
 const csvOptions = { fields: csvFields };
 
@@ -65,6 +78,34 @@ const normalizeGeoJsonFeatures = (geoJsonData) => {
 
 // Normalize GeoJSON features and save to file
 const normalizedGeoJsonData = normalizeGeoJsonFeatures(JSON.parse(JSON.stringify(geoJsonData)));
-const normalizedGeoJsonFilePath = path.join(__dirname, 'normalized_kecamatan_jakarta.geojson');
+const normalizedGeoJsonFilePath = path.join(outputDir, 'normalized_kecamatan_jakarta.geojson');
 fs.writeFileSync(normalizedGeoJsonFilePath, JSON.stringify(normalizedGeoJsonData, null, 2));
 console.log(`Normalized GeoJSON file created successfully at ${normalizedGeoJsonFilePath}`);
+
+// Function to combine GeoJSON features
+const combineGeoJsonFeatures = (geoJsonFiles) => {
+  const combinedGeoJson = {
+    type: "FeatureCollection",
+    features: []
+  };
+
+  geoJsonFiles.forEach(file => {
+    combinedGeoJson.features = combinedGeoJson.features.concat(file.features);
+  });
+
+  return combinedGeoJson;
+};
+
+// Combine the city GeoJSON files
+const combinedGeoJsonData = combineGeoJsonFeatures([
+  centralJakartaData,
+  eastJakartaData,
+  northJakartaData,
+  southJakartaData,
+  westJakartaData
+]);
+
+// Save the combined GeoJSON to a file
+const combinedGeoJsonFilePath = path.join(outputDir, 'combined_jakarta_cities.geojson');
+fs.writeFileSync(combinedGeoJsonFilePath, JSON.stringify(combinedGeoJsonData, null, 2));
+console.log(`Combined GeoJSON file created successfully at ${combinedGeoJsonFilePath}`);
